@@ -9,4 +9,7 @@ export class HttpService {
   getLogin(){
   return this.httpClient.get(this.api + 'login');
   }
+  getImageData(){
+    return this.httpClient.get(this.api + 'images');
+  }
 }

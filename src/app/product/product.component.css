@@ -1,0 +1,11 @@
+.product-image {
+  display: inline-block;
+  /*width: 150px;
+  height: 75px;*/
+  margin: 10px;
+  /* margin venda njan remove cheythe   --- hmm ok*/
+}
+.prdct-btn{
+  float: right;
+  /*color: blue;*/
+}
