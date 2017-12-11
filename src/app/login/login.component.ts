@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
             return userData;
           }
         });
-        this.router.navigate(['/dashboard']);
+        this.router.navigate(['/addproduct']);
       });
   }
 }

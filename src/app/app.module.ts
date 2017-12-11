@@ -19,6 +19,7 @@ import { HomeComponent } from './home/home.component';
 import { ServiceComponent } from './service/service.component';
 import { ProductComponent } from './product/product.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AddproductComponent } from './addproduct/addproduct.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutusComponent,
     HomeComponent,
     ServiceComponent,
-    ProductComponent
+    ProductComponent,
+    AddproductComponent
   ],
   imports: [
     BrowserModule,

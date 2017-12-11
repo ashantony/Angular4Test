@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http.service';
 import * as _ from 'lodash';
-// import { }
 
 
 @Component({
@@ -10,6 +9,8 @@ import * as _ from 'lodash';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
+  productId: number = 20;
+  productStatus: string = 'Active';
   result = [];
 
   constructor(private httpservice: HttpService) { }
@@ -27,6 +28,9 @@ export class ProductComponent implements OnInit {
 
       showDialog() {
           this.display = true;
+      }
+      getProductStatus(){
+        return this.productStatus;
       }
 
  }

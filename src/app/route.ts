@@ -7,6 +7,7 @@ import {AboutusComponent} from './aboutus/aboutus.component';
 import {HomeComponent} from './home/home.component';
 import {ServiceComponent} from './service/service.component';
 import {ProductComponent} from './product/product.component';
+import {AddproductComponent} from './addproduct/addproduct.component';
 
 
 const routes: Routes = [
@@ -31,8 +32,12 @@ const routes: Routes = [
     path: 'product',
     component: ProductComponent
   },
+  {
+    path: 'addproduct',
+    component: AddproductComponent
+  },
   { path: '',
-    redirectTo: '/login',
+    redirectTo: '/dashboard',
     pathMatch: 'full'
   },
 ];
